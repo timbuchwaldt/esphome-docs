@@ -24,6 +24,7 @@ monitors with ESPHome.
     :width: 80.0%
 
     ZyAura ZGm053U connection diagram (1 - empty, 2 - clock, 3 - data, 4 - GND). In some other models the clock and data pins are swapped.
+    Make sure to check the pin without a connector header, 5V might be found there and used to power your ESP. If you use it, make sure not to plug in the ESP and the ZyAura sensor at the same time.
 
 .. code-block:: yaml
 
